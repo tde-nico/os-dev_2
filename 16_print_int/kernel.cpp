@@ -11,5 +11,7 @@ extern "C" void _start()
 
 	main_keyboard_handler = keyboard_handler;
 
+	print_string(int_to_str(-500));
+
 	return ;
 }
